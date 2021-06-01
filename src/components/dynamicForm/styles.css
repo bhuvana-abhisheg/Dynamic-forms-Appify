@@ -1,0 +1,10 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bubblegum Sans';
+}
+.title-text {
+    text-align: center;
+    font-size: 40px;
+}

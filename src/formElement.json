@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Create Account",
+        "form":{
+            "fields": [
+                {
+                    "field_id": "firstname",
+                    "field_label": "First Name",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "Enter first name",
+                    "field_type": "text",
+                    "field_value": ""
+                },
+                {
+                    "field_id": "lastname",
+                    "field_label": "Last Name",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "Enter last name",
+                    "field_type": "text",
+                    "field_value": ""
+                },
+                {
+                    "field_id": "dob",
+                    "field_label": "Date Of Birth",
+                    "field_mandatory": "yes",
+                    "field_type": "date",
+                    "field_value": ""
+                },
+                {
+                    "field_id": "email",
+                    "field_label": "Email",
+                    "field_mandatory": "yes",
+                    "field_placeholder": "Enter email",
+                    "field_type": "text",
+                    "field_value": ""
+                },
+                {
+                    "field_id": "gender",
+                    "field_label": "Gender",
+                    "field_value": "",
+                    "field_mandatory": "yes",
+                    "field_options": [
+                        {
+                            "option_label": "Female"
+                        },
+                        {
+                            "option_label": "Male"
+                        },
+                        {
+                            "option_label": "Others"
+                        }
+                    ],
+                    "field_type": "select"
+                },
+                {
+                    "field_id": "contact",
+                    "field_label": "Contact No.",
+                    "field_mandatory": "no",
+                    "field_placeholder": "Enter contact no.",
+                    "field_type": "text",
+                    "field_value": ""
+                },  
+                {
+                    "field_id": "address",
+                    "field_label": "Address",
+                    "field_mandatory": "no",
+                    "field_placeholder": "Enter Address",
+                    "field_type": "textarea",
+                    "field_value": ""
+                },
+                {
+                    "field_id": "agreement",
+                    "field_label": "I agree to the terms of service.",
+                    "field_type": "checkbox",
+                    "field_value": "checked"
+                }
+            ]
+        }
+    }
+]
